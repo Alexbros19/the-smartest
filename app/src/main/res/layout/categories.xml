@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/categories_ground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".35">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"/>
+        <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+            style="@style/menuBtnStyle"
+            android:text="menu"
+            android:onClick="BackToMenu"/>
+
+        <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="CHOOSE CATEGORY"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorMainFont"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".35">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView style="@style/imageViewStyle"/>
+
+            <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+                style="@style/categoriesBtnsStyle"
+                android:id="@+id/countriesButton"
+                android:text="@string/categoryCountries"
+                android:onClick="CountriesBtnPlay"/>
+
+            <ImageView style="@style/imageViewStyle"/>
+
+            <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+                style="@style/categoriesBtnsStyle"
+                android:id="@+id/gamesButton"
+                android:text="Games"
+                android:onClick="GamesBtnPlay"/>
+
+            <ImageView style="@style/imageViewStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView style="@style/imageViewStyle"/>
+
+            <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+                style="@style/categoriesBtnsStyle"
+                android:id="@+id/sportsButton"
+                android:text="Sports"
+                android:onClick="SportsBtnPlay"/>
+
+            <ImageView style="@style/imageViewStyle"/>
+
+            <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+                style="@style/categoriesBtnsStyle"
+                android:id="@+id/logotypesButton"
+                android:text="Logotypes"
+                android:onClick="LogotypesBtnPlay"/>
+
+            <ImageView style="@style/imageViewStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView style="@style/imageViewStyle"/>
+            <ImageView style="@style/imageViewStyle"/>
+            <ImageView style="@style/imageViewStyle"/>
+
+            <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+                style="@style/secretBtnStyle"
+                android:id="@+id/secretButton"
+                android:text="Secret"
+                android:onClick="CartoonsBtnPlay"/>
+
+            <ImageView style="@style/imageViewStyle"/>
+            <ImageView style="@style/imageViewStyle"/>
+            <ImageView style="@style/imageViewStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3889824584026064/9076254032">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

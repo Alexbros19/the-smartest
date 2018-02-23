@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="highscoreTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="highscoreLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="categoriesBtnsStyle">
+        <item name="android:background">@drawable/play_btn_style</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="secretBtnStyle">
+        <item name="android:background">@drawable/secret_btn_style</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="imageViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">.25</item>
+    </style>
+
+    <style name="buttonPlayStyle">
+        <item name="android:background">@drawable/play_btn_style</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:text">PLAY</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="menuBtnStyle">
+        <item name="android:background">@drawable/play_btn_style</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+    </style>
+
+    <style name="answerBtnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:onClick">ButtonAnswerClick</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/answer_btns_style</item>
+    </style>
+
+    <style name="highscoreBtnOkStyle">
+        <item name="android:background">@drawable/play_btn_style</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">@android:string/ok</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="alertDialogBtnStyle">
+        <item name="android:background">@drawable/play_btn_style</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="myAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:buttonBarButtonStyle">@style/alertDialogBtnStyle</item>
+        <item name="android:background">@color/colorMenuBackground</item>
+        <item name="android:textColor">@color/colorMainFont</item>
+    </style>
+</resources>

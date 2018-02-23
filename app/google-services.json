@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "716409353112",
+    "firebase_url": "https://thesmartest-600f9.firebaseio.com",
+    "project_id": "thesmartest-600f9",
+    "storage_bucket": "thesmartest-600f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716409353112:android:b619decf556cf16e",
+        "android_client_info": {
+          "package_name": "com.example.pidlubnyalexey.thesmartest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716409353112-tpac295281jpmn8feetu2628eh7t0rre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pidlubnyalexey.thesmartest",
+            "certificate_hash": "ff82aec19d8022abe3e454fd5c95dc940500fd6e"
+          }
+        },
+        {
+          "client_id": "716409353112-bd07c363shu19k79ututh0ie0cgm2iqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBYyD8x7dF5BSNGVAKCgKinS7G7rkWfLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716409353112-bd07c363shu19k79ututh0ie0cgm2iqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

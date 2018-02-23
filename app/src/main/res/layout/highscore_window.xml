@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorMainFont">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorGray"
+            android:layout_margin="2dp">
+
+            <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+                style="@style/menuBtnStyle"
+                android:text="menu"
+                android:layout_margin="5dp"
+                android:onClick="BackToMenu"/>
+            <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:text="@string/highscoreTitle"
+                android:textStyle="bold"
+                android:textColor="@color/colorMainFont"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="@color/colorGray">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/highscoreName"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMainFont"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/highscorePoints"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorMainFont"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/colorMainFont">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName1"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore1"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName2"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore2"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName3"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore3"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName4"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore4"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName5"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore5"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName6"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore6"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName7"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore7"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName8"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore8"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName9"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore9"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/highscoreMargins">
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorMenuBackground">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewName10"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/highscoreLayout"
+                android:background="@color/colorBtnGround">
+
+                <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+                    android:id="@+id/TextViewScore10"
+                    style="@style/highscoreTextView"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

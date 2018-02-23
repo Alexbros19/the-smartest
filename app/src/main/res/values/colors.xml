@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBtnOk">#848484</color>
+    <color name="colorBtnGround">#F6CECE</color>
+    <color name="colorBtnSecret">#FFD700</color>
+    <color name="colorBtnStroke">#3B0B0B</color>
+    <color name="colorMenuBackground">#A9BCF5</color>
+    <color name="colorMainFont">#3B0B0B</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#D8D8D8</color>
+    <color name="colorPositiveAnswerBtnGradient">#0B3B0B</color>
+    <color name="colorPositiveAnswerBtnGradient2">#58FA58</color>
+    <color name="colorNegativeAnswerBtnGradient">#3B0B0B</color>
+    <color name="colorNegativeAnswerBtnGradient2">#FA5858</color>
+</resources>

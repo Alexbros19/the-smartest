@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Brainiest</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_answer_click">ButtonAnswerClick</string>
+    <string name="points">POINTS</string>
+    <string name="time">TIME</string>
+    <string name="highscoreTitle">HIGHSCORE</string>
+    <string name="statementEqualZero">Never say die! Try again!</string>
+    <string name="statementZeroToTen">Not bad! Keep it up!</string>
+    <string name="statementTenToRecord">Wow, good job!</string>
+    <string name="pleaseEnterYourName">Please enter your name:</string>
+    <string name="play">play</string>
+    <string name="about">About</string>
+    <string name="guessTheCountry">Guess the country</string>
+    <string name="guessTheGame">Guess the game</string>
+    <string name="guessTheSport">Guess the sport</string>
+    <string name="highscoreName">Name</string>
+    <string name="highscorePoints">Points</string>
+    <string name="highscore">Highscore</string>
+    <string name="gamePaused">Game paused</string>
+    <string name="gameContinue">Continue</string>
+    <string name="backToMenu">Menu</string>
+    <string name="categoryCountries">Countries</string>
+    <string name="categorySports">Sports</string>
+    <string name="categoryGames">Games</string>
+    <string name="aboutText">This App has been programmed by Alexey Pidlubny.
+                             It is free software (open source).
+                             You have the possibility to contact me by sending message on my email:
+                             p.alexey.m@gmail.com
+                             The rule of game is simple: when you click PLAY button you have to choose a category.
+                             After that the game will start. You will see a picture and four variants of answer.
+                             Only one answer is correct.
+                             You have one minute to store as much correct answers.
+                             After one minute you will see highscore dialog.
+                             Please write you name and the current result will store.
+                             I hope you have fun with this App!</string>
+    <string name="testdeviceIdForAdmob">.addTestDevice("EDA506E469B37314FC1B1179A9ABA158")</string>
+</resources>

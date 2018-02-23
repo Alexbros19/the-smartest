@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:background="@color/colorMenuBackground">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <com.alexbros.pidlubnyalexey.thesmartest.TextViewFont
+            android:id="@+id/textViewHighscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorGray"
+            android:textColor="@color/colorMainFont"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorGray"
+            android:textColor="@color/colorMainFont"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:inputType="textCapWords"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <com.alexbros.pidlubnyalexey.thesmartest.ButtonFont
+            android:id="@+id/buttonHighscore"
+            style="@style/highscoreBtnOkStyle"/>
+
+</LinearLayout>
